@@ -1,0 +1,155 @@
+/* Styles for the Resizable User Table */
+@font-face {
+  font-family: "Montserrat Arabic1";
+  src: url("./fonts/Montserrat-Arabic Black 900.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Arabic2";
+  src: url("./fonts/Montserrat-Arabic Bold 700.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic3";
+  src: url("./fonts/Montserrat-Arabic ExtraBold 800.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic4";
+  src: url("./fonts/Montserrat-Arabic ExtraLight 275.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic5";
+  src: url("./fonts/Montserrat-Arabic Light 300.otf") format("opentype");
+  font-weight: 275;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic6";
+  src: url("./fonts/Montserrat-Arabic Medium 500.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic7";
+  src: url("./fonts/Montserrat-Arabic Regular 400.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic8";
+  src: url("./fonts/Montserrat-Arabic Thin 250.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic9";
+  src: url("./fonts/Montserrat-Arabic SemiBold 600.otf") format("opentype");
+  font-weight: 250;
+  font-style: normal;
+}
+
+body {
+  font-family: "Montserrat Arabic9", sans-serif;
+}
+
+.container {
+  direction: rtl;
+  text-align: right;
+  padding: 20px;
+}
+
+button {
+  background-color: #dc9435;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #dc9500;
+}
+
+button.delete-button {
+  background-color: #dc3545;
+  font-size: smaller;
+}
+
+button.delete-button:hover {
+  background-color: #c82333;
+}
+
+button.edit-button {
+  background-color: #007bff;
+  font-size: smaller;
+}
+
+button.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select:focus,
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.narrow-table {
+  width: 65%; /* Adjust this value to make the table narrower when generating the image */
+  margin: auto; /* Optional: Center the table */
+}
+
+.photo-button {
+  margin-right: 500px;
+}
+
+.water-info {
+  color: rgb(0, 204, 255);
+  font-size: smaller;
+}

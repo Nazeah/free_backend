@@ -1,0 +1,69 @@
+/* Styles for the Meals Component */
+
+.container {
+  direction: rtl;
+  text-align: right;
+  padding: 20px;
+}
+
+.meal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.meal-name-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.meal-calories-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.meal-category-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-meal-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-meal-button:hover {
+  background-color: #218838;
+}
+
+.meals-list {
+  margin-top: 20px;
+}
+
+.meals-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.meals-list li {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
